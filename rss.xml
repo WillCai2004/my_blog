@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Will Cai&#39;s Blog</title>
+        <subtitle></subtitle>
+        <icon>https://willcai2004.github.io/assets/favicon.ico</icon>
+        <link>https://willcai2004.github.io</link>
+        <author>
+          <name>Will Cai</name>
+        </author>
+        <description></description>
+        <language>en</language>
+        <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
+        <lastBuildDate>Sun, 22 Sep 2024 22:36:24 -0700</lastBuildDate>
+        <category term="blog" />
+        <category term=" hexo" />
+        <category term=" shoka" />
+        <item>
+            <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/test-%E6%B5%8B%E8%AF%95/</guid>
+            <title>test_测试</title>
+            <link>https://willcai2004.github.io/2024/09/22/test-%E6%B5%8B%E8%AF%95/</link>
+            <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;这是一个测试文档&#34;&gt;&lt;a href=&#34;#这是一个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是一个测试文档&#34;&gt;&lt;/a&gt;这是一个测试文档&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;我会在这里测试新的功能&lt;/li&gt;
+&lt;li&gt;假如发现了任何bug, 请告诉我&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

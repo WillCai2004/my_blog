@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://willcai2004.github.io</id>
+    <title>Will Cai&#39;s Blog</title>
+    <subtitle></subtitle>
+    <icon>https://willcai2004.github.io/assets/favicon.ico</icon>
+    <link href="https://willcai2004.github.io" />
+    <author>
+      <name>Will Cai</name>
+    </author>
+    <updated>2024-09-23T05:36:24.000Z</updated>
+    <category term="blog" />
+    <category term=" hexo" />
+    <category term=" shoka" />
+    <entry>
+        <id>https://willcai2004.github.io/2024/09/22/test-%E6%B5%8B%E8%AF%95/</id>
+        <title>test_测试</title>
+        <link rel="alternate" href="https://willcai2004.github.io/2024/09/22/test-%E6%B5%8B%E8%AF%95/"/>
+        <content type="html">&lt;h1 id=&#34;这是一个测试文档&#34;&gt;&lt;a href=&#34;#这是一个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是一个测试文档&#34;&gt;&lt;/a&gt;这是一个测试文档&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;我会在这里测试新的功能&lt;/li&gt;
+&lt;li&gt;假如发现了任何bug, 请告诉我&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2024-09-23T05:36:24.000Z</updated>
+    </entry>
+</feed>
