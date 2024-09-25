@@ -11,7 +11,7 @@
             "url": "https://willcai2004.github.io/2024/09/22/test/",
             "title": "test_测试",
             "date_published": "2024-09-23T05:36:24.000Z",
-            "content_html": "<h1 id=\"这是一个测试文档\"><a href=\"#这是一个测试文档\" class=\"headerlink\" title=\"这是一个测试文档\"></a>这是一个测试文档</h1><ul>\n<li>我会在这里测试新的功能</li>\n<li>假如发现了任何bug, 请告诉我</li>\n</ul>\n<p><img loading=\"lazy\" data-src=\"/my_blog/test_image.jpg\" alt=\"描述信息\"></p>\n",
+            "content_html": "<h1 id=\"这是一个测试文档\"><a href=\"#这是一个测试文档\" class=\"headerlink\" title=\"这是一个测试文档\"></a>这是一个测试文档</h1><ul>\n<li>我会在这里测试新的功能</li>\n<li>假如发现了任何bug, 请告诉我</li>\n</ul>\n<img loading=\"lazy\" data-src=\"test_image.jpg\" alt=\"描述信息\">",
             "tags": []
         }
     ]
