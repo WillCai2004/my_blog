@@ -24,7 +24,7 @@
 &lt;li&gt;我会在这里测试新的功能&lt;/li&gt;
 &lt;li&gt;假如发现了任何bug, 请告诉我&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/my_blog/test/test_image.jpg&#34; alt=&#34;描述信息&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/my_blog/test_image.jpg&#34; alt=&#34;描述信息&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
