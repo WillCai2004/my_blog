@@ -16,14 +16,15 @@
         <category term=" hexo" />
         <category term=" shoka" />
         <item>
-            <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/test-%E6%B5%8B%E8%AF%95/</guid>
+            <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/test/</guid>
             <title>test_测试</title>
-            <link>https://willcai2004.github.io/2024/09/22/test-%E6%B5%8B%E8%AF%95/</link>
+            <link>https://willcai2004.github.io/2024/09/22/test/</link>
             <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;这是一个测试文档&#34;&gt;&lt;a href=&#34;#这是一个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是一个测试文档&#34;&gt;&lt;/a&gt;这是一个测试文档&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;我会在这里测试新的功能&lt;/li&gt;
 &lt;li&gt;假如发现了任何bug, 请告诉我&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/my_blog/test/test_image.jpg&#34; alt=&#34;描述信息&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
