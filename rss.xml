@@ -16,15 +16,37 @@
         <category term=" hexo" />
         <category term=" shoka" />
         <item>
-            <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/test/</guid>
-            <title>test_测试</title>
-            <link>https://willcai2004.github.io/2024/09/22/test/</link>
+            <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/computer-science/test/test_page%20C%201%201/</guid>
+            <title>test_C1</title>
+            <link>https://willcai2004.github.io/2024/09/22/computer-science/test/test_page%20C%201%201/</link>
+            <category term="computer science" scheme="https://willcai2004.github.io/categories/computer-science/" />
+            <category term="test" scheme="https://willcai2004.github.io/categories/computer-science/test/" />
             <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;这是一个测试文档&#34;&gt;&lt;a href=&#34;#这是一个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是一个测试文档&#34;&gt;&lt;/a&gt;这是一个测试文档&lt;/h1&gt;&lt;ul&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;这是二个测试文档&#34;&gt;&lt;a href=&#34;#这是二个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是二个测试文档&#34;&gt;&lt;/a&gt;这是二个测试文档&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;this is a test file&lt;/li&gt;
+&lt;li&gt;I will test new features here&lt;/li&gt;
+&lt;li&gt;If you see any bugs, please tell me&lt;/li&gt;
 &lt;li&gt;我会在这里测试新的功能&lt;/li&gt;
 &lt;li&gt;假如发现了任何bug, 请告诉我&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;test_image.jpg&#34; alt=&#34;桌面背景&#34;&gt; ]]></description>
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/</guid>
+            <title>test_测试</title>
+            <link>https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/</link>
+            <category term="computer science" scheme="https://willcai2004.github.io/categories/computer-science/" />
+            <category term="test" scheme="https://willcai2004.github.io/categories/computer-science/test/" />
+            <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;这是一个测试文档&#34;&gt;&lt;a href=&#34;#这是一个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是一个测试文档&#34;&gt;&lt;/a&gt;这是一个测试文档&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;this is a test file&lt;/li&gt;
+&lt;li&gt;I will test new features here&lt;/li&gt;
+&lt;li&gt;If you see any bugs, please tell me&lt;/li&gt;
+&lt;li&gt;我会在这里测试新的功能&lt;/li&gt;
+&lt;li&gt;假如发现了任何bug, 请告诉我&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;test_image.jpg&#34; alt=&#34;桌面背景&#34;&gt;
+ ]]></description>
         </item>
     </channel>
 </rss>

@@ -7,12 +7,26 @@
     "home_page_url": "https://willcai2004.github.io",
     "items": [
         {
-            "id": "https://willcai2004.github.io/2024/09/22/test/",
-            "url": "https://willcai2004.github.io/2024/09/22/test/",
+            "id": "https://willcai2004.github.io/2024/09/22/computer-science/test/test_page%20C%201%201/",
+            "url": "https://willcai2004.github.io/2024/09/22/computer-science/test/test_page%20C%201%201/",
+            "title": "test_C1",
+            "date_published": "2024-09-23T05:36:24.000Z",
+            "content_html": "<h1 id=\"这是二个测试文档\"><a href=\"#这是二个测试文档\" class=\"headerlink\" title=\"这是二个测试文档\"></a>这是二个测试文档</h1><ul>\n<li>this is a test file</li>\n<li>I will test new features here</li>\n<li>If you see any bugs, please tell me</li>\n<li>我会在这里测试新的功能</li>\n<li>假如发现了任何bug, 请告诉我</li>\n</ul>\n",
+            "tags": [
+                "computer science",
+                "test"
+            ]
+        },
+        {
+            "id": "https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/",
+            "url": "https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/",
             "title": "test_测试",
             "date_published": "2024-09-23T05:36:24.000Z",
-            "content_html": "<h1 id=\"这是一个测试文档\"><a href=\"#这是一个测试文档\" class=\"headerlink\" title=\"这是一个测试文档\"></a>这是一个测试文档</h1><ul>\n<li>我会在这里测试新的功能</li>\n<li>假如发现了任何bug, 请告诉我</li>\n</ul>\n<img loading=\"lazy\" data-src=\"test_image.jpg\" alt=\"桌面背景\">",
-            "tags": []
+            "content_html": "<h1 id=\"这是一个测试文档\"><a href=\"#这是一个测试文档\" class=\"headerlink\" title=\"这是一个测试文档\"></a>这是一个测试文档</h1><ul>\n<li>this is a test file</li>\n<li>I will test new features here</li>\n<li>If you see any bugs, please tell me</li>\n<li>我会在这里测试新的功能</li>\n<li>假如发现了任何bug, 请告诉我</li>\n</ul>\n<img loading=\"lazy\" data-src=\"test_image.jpg\" alt=\"桌面背景\">\n",
+            "tags": [
+                "computer science",
+                "test"
+            ]
         }
     ]
 }
