@@ -10,33 +10,69 @@
         </author>
         <description></description>
         <language>en</language>
-        <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
-        <lastBuildDate>Sun, 22 Sep 2024 22:36:24 -0700</lastBuildDate>
+        <pubDate>Mon, 14 Oct 2024 19:21:11 -0700</pubDate>
+        <lastBuildDate>Mon, 14 Oct 2024 19:21:11 -0700</lastBuildDate>
         <category term="blog" />
         <category term=" hexo" />
         <category term=" shoka" />
         <item>
-            <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/computer-science/test/test_page%20C%201%201/</guid>
-            <title>test_C1</title>
-            <link>https://willcai2004.github.io/2024/09/22/computer-science/test/test_page%20C%201%201/</link>
-            <category term="computer science" scheme="https://willcai2004.github.io/categories/computer-science/" />
-            <category term="test" scheme="https://willcai2004.github.io/categories/computer-science/test/" />
-            <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;这是二个测试文档&#34;&gt;&lt;a href=&#34;#这是二个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是二个测试文档&#34;&gt;&lt;/a&gt;这是二个测试文档&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;this is a test file&lt;/li&gt;
-&lt;li&gt;I will test new features here&lt;/li&gt;
-&lt;li&gt;If you see any bugs, please tell me&lt;/li&gt;
-&lt;li&gt;我会在这里测试新的功能&lt;/li&gt;
-&lt;li&gt;假如发现了任何bug, 请告诉我&lt;/li&gt;
-&lt;/ul&gt;
+            <guid isPermalink="true">https://willcai2004.github.io/2024/10/14/game/game-review/Rainworld/</guid>
+            <title>Rainworld</title>
+            <link>https://willcai2004.github.io/2024/10/14/game/game-review/Rainworld/</link>
+            <category term="Game" scheme="https://willcai2004.github.io/categories/game/" />
+            <category term="Game Review" scheme="https://willcai2004.github.io/categories/game/game-review/" />
+            <category term="Game" scheme="https://willcai2004.github.io/tags/Game/" />
+            <pubDate>Mon, 14 Oct 2024 19:21:11 -0700</pubDate>
+            <description><![CDATA[ &lt;p&gt;(↓English version below↓)&lt;/p&gt;
+&lt;h2 id=&#34;中文版&#34;&gt;&lt;a href=&#34;#中文版&#34; class=&#34;headerlink&#34; title=&#34;中文版:&#34;&gt;&lt;/a&gt;中文版:&lt;/h2&gt;&lt;p&gt;终于通关了《雨世界》，经历了各种艰难，查阅攻略才完成。这款游戏虽已问世七年，但以现在的标准来看，无论在美术、玩法、机制还是剧情上都达到了极高的水准，是我心目中制作最精良的2D游戏之一。&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;1.png&#34; alt=&#34;1&#34;&gt;
+《雨世界》是一款基于Unity引擎制作的2D独立游戏。在游戏中，玩家扮演一种被称为“蛞蝓猫”的生物，在古代文明遗留下的废墟中探索生存。乍一看似乎是传统的探索类RPG，但制作组在美术和机制上的精细打磨，使其脱颖而出。
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;3.png&#34; alt=&#34;3&#34;&gt;
+首先是美术方面。玩家在控制蛞蝓猫时，会穿越古文明的废墟，随处可见裸露的钢筋架、断裂的管道和通风系统，彰显了曾经的文明辉煌。然而，这一切又被层层植被覆盖，形成了一个繁盛的生态系统。废墟的“破败”与新生命的“生机”相互交织，又形成鲜明的对比。
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;8.png&#34; alt=&#34;8&#34;&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;7.png&#34; alt=&#34;7&#34;&gt;
+这种感觉在蛞蝓猫进入古代遗迹、仍在勉强运作的巨大结构中达到顶峰。游戏中的“迭代器”内部，广阔的“系统总线”宛如八车道高速公路，而神经元组件则如同深海中的荧光鱼群，又似星辰在无重力场中漂浮。古文明的宏伟与蛞蝓猫的渺小对比鲜明，让人既震撼又惋惜。
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;4.png&#34; alt=&#34;4&#34;&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;5.png&#34; alt=&#34;5&#34;&gt;
+在机制方面，制作组赋予《雨世界》每种生物不同的AI，并使用类似3D骨骼绑定技术制作所有动物。这让游戏中的生物不仅具有基本的“战或逃”反应，还具备一定的思考和判断能力。结合流畅自然的动作，构建了一个栩栩如生、完整的生态系统。这种生态还原程度，即使在以生态系统为卖点的游戏中也十分罕见。
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;9.png&#34; alt=&#34;9&#34;&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;6.png&#34; alt=&#34;6&#34;&gt;
+生命在古代废墟中焕发，渺小的蛞蝓猫在其中穿行。冷却水自迭代器中排出，如瀑布般的大雨冲刷着新生的生命。这正是我喜爱《雨世界》的原因: 抛开剧情对轮回与虚无主义的探讨，化身食物链低端的蛞蝓猫，在这个精心构建的世界中游荡，细细感受曾经与现在的一切，这本身就是一种极大的美好。
+
+&lt;p&gt;图片参考b站视频 &lt;a href=&#34;https://www.bilibili.com/video/BV1gg4y1d7oj&#34;&gt;BV1gg4y1d7oj&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;English-Version&#34;&gt;&lt;a href=&#34;#English-Version&#34; class=&#34;headerlink&#34; title=&#34;English Version:&#34;&gt;&lt;/a&gt;English Version:&lt;/h2&gt;&lt;p&gt;Finally, I have completed Rain World after going through countless difficulties, and I had to rely on guides to make it through. Though this game has been out for seven years, by today’s standards, whether in terms of art, gameplay, mechanics, or story, it still stands at an impressively high level. In my opinion, it’s one of the most exquisitely crafted 2D games ever made.&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;1.png&#34; alt=&#34;1&#34;&gt;
+*Rain World* is a 2D indie game made using the Unity engine. In the game, players take on the role of a creature known as the &#34;Slugcat,&#34; exploring and surviving in the ruins left behind by an ancient civilization. At first glance, it may seem like a traditional exploration RPG, but the development team&#39;s meticulous polishing of both the art and mechanics sets it apart from the rest. 
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;3.png&#34; alt=&#34;3&#34;&gt; 
+Starting with the art, as the player controls the Slugcat, they traverse the ruins of an ancient civilization. Exposed steel structures, broken pipes, and ventilation systems are visible everywhere, showcasing the glory of a once-great civilization. Yet, all of this is overgrown with layers of vegetation, creating a flourishing ecosystem. The contrast between the &#34;decay&#34; of the ruins and the &#34;vitality&#34; of new life intertwines, forming a striking juxtaposition. 
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;8.png&#34; alt=&#34;8&#34;&gt; 
+&lt;img loading=&#34;lazy&#34; data-src=&#34;7.png&#34; alt=&#34;7&#34;&gt; 
+This feeling reaches its peak when the Slugcat enters the still-operational massive structures of the ancient ruins. Inside the game’s &#34;Iterators,&#34; the vast &#34;system buses&#34; resemble eight-lane highways, while neuron components appear like glowing schools of fish in the deep sea, or stars drifting in a zero-gravity field. The grandeur of the ancient civilization stands in stark contrast to the small Slugcat, evoking both awe and regret. 
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;4.png&#34; alt=&#34;4&#34;&gt; 
+&lt;img loading=&#34;lazy&#34; data-src=&#34;5.png&#34; alt=&#34;5&#34;&gt; 
+On the mechanics side, the development team gave each creature in *Rain World* its own AI, utilizing a technology similar to 3D skeleton rigging to animate all animals. This means the creatures in the game not only have basic &#34;fight or flight&#34; reactions but also possess a certain level of thinking and decision-making ability. Combined with smooth and natural movements, this builds a vivid and complete ecosystem. The level of ecological simulation here is rare, even among games that specifically market their ecosystems as key features. 
+
+&lt;img loading=&#34;lazy&#34; data-src=&#34;9.png&#34; alt=&#34;9&#34;&gt; 
+&lt;img loading=&#34;lazy&#34; data-src=&#34;6.png&#34; alt=&#34;6&#34;&gt; 
+Life thrives within the ancient ruins as the tiny Slugcat roams through it. Cooling water is discharged from the Iterators, with torrential rains washing over newly born life. This is why I love *Rain World*—setting aside the story&#39;s exploration of the themes of reincarnation and nihilism, simply becoming a low-level creature in the food chain, wandering through this meticulously crafted world and slowly feeling everything from the past and the present, is an immense beauty in itself.
+
+&lt;p&gt;Image reference from the Bilibili video &lt;a href=&#34;https://www.bilibili.com/video/BV1gg4y1d7oj&#34;&gt;BV1gg4y1d7oj&lt;/a&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/</guid>
             <title>test_测试</title>
             <link>https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/</link>
-            <category term="computer science" scheme="https://willcai2004.github.io/categories/computer-science/" />
-            <category term="test" scheme="https://willcai2004.github.io/categories/computer-science/test/" />
+            <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
+            <category term="Test" scheme="https://willcai2004.github.io/categories/computer-science/test/" />
+            <category term="Computer Science" scheme="https://willcai2004.github.io/tags/Computer-Science/" />
             <pubDate>Sun, 22 Sep 2024 22:36:24 -0700</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;这是一个测试文档&#34;&gt;&lt;a href=&#34;#这是一个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是一个测试文档&#34;&gt;&lt;/a&gt;这是一个测试文档&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;this is a test file&lt;/li&gt;
