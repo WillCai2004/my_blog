@@ -1,0 +1,280 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/my_blog/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/my_blog/assets/apple-touch-icon.png"/><link rel="alternate" href="/my_blog/rss.xml" title="By Will Cai" type="application/rss+xml"><link rel="alternate" href="/my_blog/atom.xml" title="By Will Cai" type="application/atom+xml"><link rel="alternate" type="application/json" title="By Will Cai" href="https://willcai2004.github.io/feed.json"/><link rel="preconnect" href="https://s4.zstatic.net"/><link rel="preconnect" href="https://at.alicdn.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&display=swap&subset=latin,latin-ext" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="/my_blog/css/app.css?v=0.4.13"><link rel="modulepreload" href="/my_blog/js/chunk-56XCSJZP.js"></link><link rel="modulepreload" href="/my_blog/js/chunk-KJ4M7TC5.js"></link><link rel="modulepreload" href="/my_blog/js/copy-tex-HM7SU5DH.js"></link><link rel="modulepreload" href="/my_blog/js/post-N6V4T3CN.js"></link><link rel="modulepreload" href="/my_blog/js/quicklink-ZVQYYCDY.js"></link><link rel="modulepreload" href="/my_blog/js/siteInit.js"></link><link rel="preload" href="/my_blog/assets/wallpaper.jpg" as="image" fetchpriority="high"><meta name="keywords" content="Computer Science,"/><link rel="canonical" href="https://willcai2004.github.io/2024/10/17/computer-science/notes/Linux/1.1%20Linux%20basics/"><title>1 Linux Basics</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">1 Linux Basics</h1><div class="meta"><span class="item" title="Created: 2024-10-17 13:52:50"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">Posted on</span><time itemprop="dateCreated datePublished" datetime="2024-10-17T13:52:50-07:00">2024-10-17</time></span><span class="item" title="Symbols count in article"><span class="icon"><i class="ic i-pen"></i></span><span class="text">Symbols count in article</span><span>5.2k</span><span class="text">words</span></span><span class="item" title="Reading time"><span class="icon"><i class="ic i-clock"></i></span><span class="text">Reading time</span><span>5 mins.</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="Toggle navigation bar"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/my_blog/" rel="start">Blog</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><img src="/my_blog/assets/wallpaper.jpg" loading="eager" decoding="async" fetchpriority="high" alt="By Will Cai"></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/my_blog/">Home</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/my_blog/categories/computer-science/" itemprop="item" rel="index" title="InComputer Science"><span itemprop="name">Computer Science<meta itemprop="position" content="0"/></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/my_blog/categories/computer-science/Linux/" itemprop="item" rel="index" title="InLinux"><span itemprop="name">Linux<meta itemprop="position" content="1"/></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="en"><link itemprop="mainEntityOfPage" href="https://willcai2004.github.io/2024/10/17/computer-science/notes/Linux/1.1%20Linux%20basics/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/my_blog/assets/avatar.jpg"/><meta itemprop="name" content="Will Cai"/><meta itemprop="description" content=", "/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="By Will Cai"/></span><div class="body md" itemprop="articleBody"><h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux:"></a>Linux:</h1><ul>
+<li>an operating system with a <strong>GUI</strong> interface</li>
+</ul>
+<h2 id="Command-line-and-Terminal"><a href="#Command-line-and-Terminal" class="headerlink" title="Command line and Terminal"></a>Command line and Terminal</h2><ul>
+<li>most interaction is done via a terminal</li>
+<li>a terminal is a program used to interact with the shell</li>
+<li>the shell enables access to the operating system</li>
+<li>Terminal, command line, shell and any specific shells<ul>
+<li>basically referring to the same thing</li>
+</ul>
+</li>
+</ul>
+<h1 id="Shells"><a href="#Shells" class="headerlink" title="Shells"></a>Shells</h1><ul>
+<li>Windows shells<ul>
+<li>command prompt</li>
+<li>PowerShell</li>
+</ul>
+</li>
+<li>Linus shells<ul>
+<li>Bash (Born Again shell)</li>
+<li>also other shells, but works similar</li>
+<li>example: <code>uname@~/app/1</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="File-system"><a href="#File-system" class="headerlink" title="File system"></a>File system</h1><ul>
+<li>no hard drives, such as C:\</li>
+<li>everything starts from &#x2F; the <strong>root</strong> directory</li>
+</ul>
+<h2 id="Path"><a href="#Path" class="headerlink" title="Path"></a>Path</h2><ul>
+<li>Path is the list of &#x2F; separated directory names</li>
+</ul>
+<h3 id="Absolute-path"><a href="#Absolute-path" class="headerlink" title="Absolute path"></a>Absolute path</h3><ul>
+<li>absolute path starts with a &#x2F;</li>
+<li>list all the directories separated by a &#x2F;</li>
+<li><code>/home/code/app/1/data</code></li>
+</ul>
+<h3 id="Relative-path"><a href="#Relative-path" class="headerlink" title="Relative path"></a>Relative path</h3><ul>
+<li>relative path starts from the current directory</li>
+<li>may include a slash after first character</li>
+<li><code>app/1/data</code></li>
+</ul>
+<h4 id="Two-relative-path-operators"><a href="#Two-relative-path-operators" class="headerlink" title="Two relative path operators"></a>Two relative path operators</h4><ul>
+<li>single dot <code>.</code> <ul>
+<li>current directory</li>
+</ul>
+</li>
+<li>double dot <code>..</code><ul>
+<li>1 directory up the chain</li>
+</ul>
+</li>
+</ul>
+<h2 id="cd-Navigating-directories"><a href="#cd-Navigating-directories" class="headerlink" title="cd: Navigating directories"></a>cd: Navigating directories</h2><ul>
+<li><strong>cd</strong> is short for change directory, it changes your working directory</li>
+<li><strong>cd</strong> works with absolute and relative paths</li>
+<li>if type <strong>cd</strong> only, will go to the home directory</li>
+</ul>
+<h2 id="ls-Listing-directories"><a href="#ls-Listing-directories" class="headerlink" title="ls: Listing directories"></a>ls: Listing directories</h2><ul>
+<li>lists the files and directories within this directory</li>
+<li>common flags -la</li>
+<li>Bash shortcut, <code>ll = ls -la</code></li>
+<li>File&#x2F;Directory pattern matching<ul>
+<li><strong>* Wild card</strong> - 0 to any number of any character<ul>
+<li><code>ls *</code> list all files</li>
+<li><code>ls *.c</code> lists all files that end in .c</li>
+</ul>
+</li>
+<li><strong>? Wild card</strong> for a single character<ul>
+<li><code>ls file?.c</code></li>
+<li>lists <code>file1.c filea.c file3.c......</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="mkdir-Creating-directories"><a href="#mkdir-Creating-directories" class="headerlink" title="mkdir: Creating directories"></a>mkdir: Creating directories</h2><ul>
+<li>make directory</li>
+</ul>
+<h2 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h2><h3 id="Moving-files-or-directories"><a href="#Moving-files-or-directories" class="headerlink" title="Moving files or directories"></a>Moving files or directories</h3><ul>
+<li>mv: <code>mv &lt;source&gt; &lt;target&gt;</code></li>
+</ul>
+<pre><code class="bash">uname@~/app/1 $ mv config.xml data/
+uname@~/app/1 $ mv beep data/beep
+uname@~/app/1 $ ll data
+.rw-r--r-- 115 uname 8012 Mar  2022 demo.dat
+.rwxr-xr-x   - uname   12 Feb  2021 config.xml
+drwxr-xr-x   - uname   14 Aug 06:02 beep
+</code></pre>
+<h3 id="Renaming-files"><a href="#Renaming-files" class="headerlink" title="Renaming files"></a>Renaming files</h3><ul>
+<li>mv: <code>mv &lt;oldname&gt; &lt;newname&gt;</code></li>
+</ul>
+<h2 id="cp-Copying-files-or-directories"><a href="#cp-Copying-files-or-directories" class="headerlink" title="cp: Copying files or directories"></a>cp: Copying files or directories</h2><ul>
+<li>cp: <code>cp &lt;file&gt; &lt;target&gt;</code></li>
+</ul>
+<h2 id="rm-Removing-a-file-or-directory"><a href="#rm-Removing-a-file-or-directory" class="headerlink" title="rm: Removing a file or directory"></a>rm: Removing a file or directory</h2><ul>
+<li>rm: <code>rm &lt;file&gt;</code></li>
+<li>-i<ul>
+<li>prompt the user for each deletion</li>
+</ul>
+</li>
+<li>-v <ul>
+<li>with specific information</li>
+</ul>
+</li>
+<li>*<ul>
+<li>Remove everything that is not a directory </li>
+<li>does not start with a period</li>
+</ul>
+</li>
+<li>-r <ul>
+<li>Remove everything except items starting with period in current directory</li>
+</ul>
+</li>
+</ul>
+<h2 id="echo-Print-the-value-provided"><a href="#echo-Print-the-value-provided" class="headerlink" title="echo: Print the value provided"></a>echo: Print the value provided</h2><ul>
+<li>by defaule, includes a new line <code>\n</code> at the end</li>
+</ul>
+<h2 id="cat-Quickly-looking-at-file-contents"><a href="#cat-Quickly-looking-at-file-contents" class="headerlink" title="cat: Quickly looking at file contents"></a>cat: Quickly looking at file contents</h2><ul>
+<li>prints the contents of a file to the terminal</li>
+</ul>
+<h2 id="grep-Search-and-return"><a href="#grep-Search-and-return" class="headerlink" title="grep: Search and return"></a>grep: Search and return</h2><ul>
+<li>grep: means global regular expression</li>
+<li>searches a pattern and returns the line that match<ul>
+<li><code>grep &lt;option&gt; &lt;pattern&gt; [file]</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="Running-programs"><a href="#Running-programs" class="headerlink" title="Running programs"></a>Running programs</h1><ul>
+<li>Running a program from the command line requires<ul>
+<li>the <strong>path</strong> to the program</li>
+<li>Any arguments sent into the program</li>
+</ul>
+</li>
+<li>While it runs the program<ul>
+<li>Outputs to standard output (terminal in most cases)</li>
+<li>Takes input via standard input (keyboard in most cases)</li>
+</ul>
+</li>
+<li>Returns a code on exit<ul>
+<li><code>uname@~/app/1 $ /bin/false</code> </li>
+<li><code>uname@~/app/1 $ /bin/echo &quot;$?&quot;</code></li>
+<li><code>1</code> (this is the value returned from &#x2F;bin&#x2F;false )</li>
+</ul>
+</li>
+<li>Must use .&#x2F; to execute a program in out current directory</li>
+</ul>
+<h1 id="Redirection"><a href="#Redirection" class="headerlink" title="Redirection"></a>Redirection</h1><h2 id="Redirecting-I-O"><a href="#Redirecting-I-O" class="headerlink" title="Redirecting I&#x2F;O"></a>Redirecting I&#x2F;O</h2><ul>
+<li><p>Default standard</p>
+<ul>
+<li>Input:<ul>
+<li>standard input- keyboard input</li>
+</ul>
+</li>
+<li>Output<ul>
+<li>standard output with a file descriptor of 1</li>
+<li>standard error with a file descriptor if 2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>can redirect a file to be any of these</p>
+</li>
+<li><p>use <code>&lt;</code> to redirects input of the target to the provided device or file</p>
+<ul>
+<li>Input less than expected can cause errors</li>
+<li>Redirects to standard input</li>
+</ul>
+</li>
+<li><p>Example:</p>
+<ul>
+<li><code>test.input</code> contains “Erik”</li>
+</ul>
+</li>
+</ul>
+<pre><code class="bash">uname@~/app/1 $ ./myprogram &lt; test.input
+Hello, Erik
+uname@~/app/1 $
+</code></pre>
+<ul>
+<li>use <code>&gt;</code> to redirect output from a program to a file</li>
+</ul>
+<pre><code class="bash">uname@~/app/1 $ ll data &gt; /tmp/output.dat
+uname@~/app/1 $ cat /tmp/output.dat
+.rw-r--r-- 115 uname 8012 Mar  2022 demo.dat
+.rwxr-xr-x   - uname   12 Fab  2021 config.xml
+drwxr-xr-x   - uname   14 Aug 06:02 beep
+</code></pre>
+<ul>
+<li>use <code>|</code> to pipe one output to another input</li>
+</ul>
+<pre><code class="bash">uname@~/app/1 $ printf &quot;2\n3\n1\n&quot; | sort -n
+1
+2
+3
+</code></pre>
+<p>or</p>
+<pre><code class="bash">uname@~/app/1 $ printf &quot;2\n3\n1\n&quot; | sort -n | grep 3
+3
+</code></pre>
+<h1 id="Regular-Expressions"><a href="#Regular-Expressions" class="headerlink" title="Regular Expressions"></a>Regular Expressions</h1><ul>
+<li><p>Regular expressions (regex) are sequences of characters that define search patterns</p>
+</li>
+<li><p>Used for string matching, validation, and text processing</p>
+</li>
+<li><p>Basic characters</p>
+<ul>
+<li>Literals: <code>meow</code></li>
+<li>The Wildcard <code>.</code></li>
+<li>Square Brackets <code>\[a-zA-Z]</code></li>
+</ul>
+</li>
+<li><p>Quantifiers</p>
+<ul>
+<li>Come after a literal character, wildcard character, or square brackets</li>
+<li>describes how many times the proceeding item will occur<ul>
+<li>Asterisk <code>*</code> matches 0 or more occurrences</li>
+<li>Braces <code>&#123;n,m&#125;</code> Matches between n and m occurrences</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Example Regex Patterns:</p>
+<ul>
+<li>Email Validation:<ul>
+<li><code>[a-zA-Z0-9._%+!]*@[a-zA-Z0-9._%+!]*</code></li>
+<li>matches any email address</li>
+</ul>
+</li>
+<li>Phone Number:<ul>
+<li><code>([0-9]&#123;3&#125;)[0-9]&#123;3&#125;-[0-9]&#123;4&#125;</code></li>
+<li>(123)456-7890</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><h3 id="gcc-Compile-C-source-code"><a href="#gcc-Compile-C-source-code" class="headerlink" title="gcc: Compile C source code"></a>gcc: Compile C source code</h3><ul>
+<li><code>gcc</code>:  compiles C source to a binary executable</li>
+<li>-o is where to put the binary executable</li>
+</ul>
+<pre><code class="bash">uname@~/app/1 $ gcc main.c -o main.bin
+uname@~/app/1 $ ls -la
+.rw-r--r-- 8120 uname  12 May 2024 main.bin
+.rwxr-xr-x 100  uname  12 May 2024 main.c
+</code></pre>
+<div class="tags"><a href="/my_blog/tags/Computer-Science/" rel="tag"><i class="ic i-tag"></i>Computer Science</a><a href="/my_blog/tags/Linux/" rel="tag"><i class="ic i-tag"></i>Linux</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">Edited on</span><time title="Modified: 2024-10-17 13:58:36" itemprop="dateModified" datetime="2024-10-17T13:58:36-07:00">2024-10-17</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>Donate</button><p>Give me a cup of [coffee]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" data-src="/my_blog/assets/wechatpay.png" alt="Will Cai WeChat Pay"/><p>WeChat Pay</p></div><div><img loading="lazy" data-src="/my_blog/assets/alipay.png" alt="Will Cai Alipay"/><p>Alipay</p></div></div></div><div id="copyright"><ul><li class="author"><strong>Post author: </strong>Will Cai<i class="ic i-at"><em>@</em></i>By Will Cai</li><li class="link"><strong>Post link: </strong><a href="https://willcai2004.github.io/2024/10/17/computer-science/notes/Linux/1.1%20Linux%20basics/" title="1 Linux Basics">https://willcai2004.github.io/2024/10/17/computer-science/notes/Linux/1.1 Linux basics/</a></li><li class="license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> unless stating additionally.</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/my_blog/2024/10/14/game/game-review/Rainworld/" rel="prev" itemprop="url" data-background-image="&#x2F;my_blog&#x2F;2024&#x2F;10&#x2F;14&#x2F;game&#x2F;game-review&#x2F;Rainworld&#x2F;cover.jpg" title="Rainworld"><span class="type">Previous Post</span><span class="category"><i class="ic i-flag"></i>Game Review</span><h3>Rainworld</h3></a></div><div class="item right"></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="Contents"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux"><span class="toc-number">1.</span> <span class="toc-text">Linux:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Command-line-and-Terminal"><span class="toc-number">1.1.</span> <span class="toc-text">Command line and Terminal</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Shells"><span class="toc-number">2.</span> <span class="toc-text">Shells</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#File-system"><span class="toc-number">3.</span> <span class="toc-text">File system</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Path"><span class="toc-number">3.1.</span> <span class="toc-text">Path</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Absolute-path"><span class="toc-number">3.1.1.</span> <span class="toc-text">Absolute path</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Relative-path"><span class="toc-number">3.1.2.</span> <span class="toc-text">Relative path</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Two-relative-path-operators"><span class="toc-number">3.1.2.1.</span> <span class="toc-text">Two relative path operators</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cd-Navigating-directories"><span class="toc-number">3.2.</span> <span class="toc-text">cd: Navigating directories</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ls-Listing-directories"><span class="toc-number">3.3.</span> <span class="toc-text">ls: Listing directories</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mkdir-Creating-directories"><span class="toc-number">3.4.</span> <span class="toc-text">mkdir: Creating directories</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mv"><span class="toc-number">3.5.</span> <span class="toc-text">mv</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Moving-files-or-directories"><span class="toc-number">3.5.1.</span> <span class="toc-text">Moving files or directories</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Renaming-files"><span class="toc-number">3.5.2.</span> <span class="toc-text">Renaming files</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cp-Copying-files-or-directories"><span class="toc-number">3.6.</span> <span class="toc-text">cp: Copying files or directories</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rm-Removing-a-file-or-directory"><span class="toc-number">3.7.</span> <span class="toc-text">rm: Removing a file or directory</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#echo-Print-the-value-provided"><span class="toc-number">3.8.</span> <span class="toc-text">echo: Print the value provided</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cat-Quickly-looking-at-file-contents"><span class="toc-number">3.9.</span> <span class="toc-text">cat: Quickly looking at file contents</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#grep-Search-and-return"><span class="toc-number">3.10.</span> <span class="toc-text">grep: Search and return</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Running-programs"><span class="toc-number">4.</span> <span class="toc-text">Running programs</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Redirection"><span class="toc-number">5.</span> <span class="toc-text">Redirection</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Redirecting-I-O"><span class="toc-number">5.1.</span> <span class="toc-text">Redirecting I&#x2F;O</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Regular-Expressions"><span class="toc-number">6.</span> <span class="toc-text">Regular Expressions</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Misc"><span class="toc-number">7.</span> <span class="toc-text">Misc</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#gcc-Compile-C-source-code"><span class="toc-number">7.0.1.</span> <span class="toc-text">gcc: Compile C source code</span></a></li></ol></li></ol></li></ol></div><div class="related panel pjax" data-title="Related"><ul><li  class="active"><a href="/my_blog/2024/10/17/computer-science/notes/Linux/1.1%20Linux%20basics/" rel="bookmark" title="1 Linux Basics">1 Linux Basics</a></li></ul></div><div class="overview panel" data-title="Overview"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="Will Cai" src="/my_blog/assets/avatar.jpg"/><p class="name" itemprop="name">Will Cai</p><div class="description" itemprop="description"></div></div><nav class="state"><div class="item posts"><a href="/my_blog/archives/"><span class="count">3</span><span class="name">posts</span></a></div><div class="item categories"><a href="/my_blog/categories/"><span class="count">5</span><span class="name">categories</span></a></div><div class="item tags"><a href="/my_blog/tags/"><span class="count">3</span><span class="name">tags</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/WillCai2004" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;WillCai2004"><i class="ic i-github"></i></a><a href="/my_blog/will_cai2004@163.com" class="item email" title="will_cai2004@163.com"><i class="ic i-email"></i></a></div><div class="menu"><li class="item"><a href="/my_blog/" rel="section"><i class="ic i-home"></i>Home</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/my_blog/2024/10/14/game/game-review/Rainworld/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>Random Posts</h2><ul><li class="item"><div class="breadcrumb"><a href="/my_blog/categories/game/" title="InGame">Game</a><i class="ic i-angle-right"></i><a href="/my_blog/categories/game/game-review/" title="InGame Review">Game Review</a></div><span><a href="/my_blog/2024/10/14/game/game-review/Rainworld/">Rainworld</a></span></li><li class="item"><div class="breadcrumb"><a href="/my_blog/categories/computer-science/" title="InComputer Science">Computer Science</a><i class="ic i-angle-right"></i><a href="/my_blog/categories/computer-science/test/" title="InTest">Test</a></div><span><a href="/my_blog/2024/09/22/computer-science/test_page/">test_测试</a></span></li><li class="item"><div class="breadcrumb"><a href="/my_blog/categories/computer-science/" title="InComputer Science">Computer Science</a><i class="ic i-angle-right"></i><a href="/my_blog/categories/computer-science/Linux/" title="InLinux">Linux</a></div><span><a href="/my_blog/2024/10/17/computer-science/notes/Linux/1.1%20Linux%20basics/">1 Linux Basics</a></span></li></ul></div><div class="rpost pjax"><h2>Recent Comments</h2></div></div><div class="status"><div class="copyright">&copy; 2022 -<span itemprop="copyrightYear">2024</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">Will Cai @ Blog</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="Symbols count total">9k words</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="Reading time total">9 mins.</span></div><div class="powered-by">Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `2024/10/17/computer-science/notes/Linux/1.1 Linux basics/`,
+        favicon: {
+        show: `(●´3｀●) Here we go again.`,
+        hide: `(´Д｀) It's a disaster!`
+    },
+    search: {
+        placeholder: "Search for Posts",
+        empty: "We didn't find any results for the search: ${query}",
+        stats: "${hits} results found in ${time} ms"
+    },
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">Article Timeliness Alert</span><br>This is an article published {{publish}} days ago and last updated {{updated}} days ago. Some information may have changed, so please be careful to screen it.</p></div>`,
+    quiz: {
+        choice: `Multiple Choice`,
+        multiple: `Multiple Answer`,
+        true_false: `True/False`,
+        essay: `Questions`,
+        gap_fill: `Gap Filling`,
+        mistake: `Wrong Answer`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO&#x2F;+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn&#x2F;6Z&#x2F;hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="/my_blog/js/siteInit.js?v=0.4.13" type="module" fetchpriority="high" defer></script></body></html>

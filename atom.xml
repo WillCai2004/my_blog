@@ -8,10 +8,266 @@
     <author>
       <name>Will Cai</name>
     </author>
-    <updated>2024-10-15T02:21:11.000Z</updated>
+    <updated>2024-10-17T20:52:50.000Z</updated>
     <category term="blog" />
     <category term=" hexo" />
     <category term=" shoka" />
+    <entry>
+        <id>https://willcai2004.github.io/2024/10/17/computer-science/notes/Linux/1.1%20Linux%20basics/</id>
+        <title>1 Linux Basics</title>
+        <link rel="alternate" href="https://willcai2004.github.io/2024/10/17/computer-science/notes/Linux/1.1%20Linux%20basics/"/>
+        <content type="html">&lt;h1 id=&#34;Linux&#34;&gt;&lt;a href=&#34;#Linux&#34; class=&#34;headerlink&#34; title=&#34;Linux:&#34;&gt;&lt;/a&gt;Linux:&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;an operating system with a &lt;strong&gt;GUI&lt;/strong&gt; interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;Command-line-and-Terminal&#34;&gt;&lt;a href=&#34;#Command-line-and-Terminal&#34; class=&#34;headerlink&#34; title=&#34;Command line and Terminal&#34;&gt;&lt;/a&gt;Command line and Terminal&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;most interaction is done via a terminal&lt;/li&gt;
+&lt;li&gt;a terminal is a program used to interact with the shell&lt;/li&gt;
+&lt;li&gt;the shell enables access to the operating system&lt;/li&gt;
+&lt;li&gt;Terminal, command line, shell and any specific shells&lt;ul&gt;
+&lt;li&gt;basically referring to the same thing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;Shells&#34;&gt;&lt;a href=&#34;#Shells&#34; class=&#34;headerlink&#34; title=&#34;Shells&#34;&gt;&lt;/a&gt;Shells&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Windows shells&lt;ul&gt;
+&lt;li&gt;command prompt&lt;/li&gt;
+&lt;li&gt;PowerShell&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linus shells&lt;ul&gt;
+&lt;li&gt;Bash (Born Again shell)&lt;/li&gt;
+&lt;li&gt;also other shells, but works similar&lt;/li&gt;
+&lt;li&gt;example: &lt;code&gt;uname@~/app/1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;File-system&#34;&gt;&lt;a href=&#34;#File-system&#34; class=&#34;headerlink&#34; title=&#34;File system&#34;&gt;&lt;/a&gt;File system&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;no hard drives, such as C:\&lt;/li&gt;
+&lt;li&gt;everything starts from &amp;#x2F; the &lt;strong&gt;root&lt;/strong&gt; directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;Path&#34;&gt;&lt;a href=&#34;#Path&#34; class=&#34;headerlink&#34; title=&#34;Path&#34;&gt;&lt;/a&gt;Path&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Path is the list of &amp;#x2F; separated directory names&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;Absolute-path&#34;&gt;&lt;a href=&#34;#Absolute-path&#34; class=&#34;headerlink&#34; title=&#34;Absolute path&#34;&gt;&lt;/a&gt;Absolute path&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;absolute path starts with a &amp;#x2F;&lt;/li&gt;
+&lt;li&gt;list all the directories separated by a &amp;#x2F;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/home/code/app/1/data&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;Relative-path&#34;&gt;&lt;a href=&#34;#Relative-path&#34; class=&#34;headerlink&#34; title=&#34;Relative path&#34;&gt;&lt;/a&gt;Relative path&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;relative path starts from the current directory&lt;/li&gt;
+&lt;li&gt;may include a slash after first character&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;app/1/data&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;Two-relative-path-operators&#34;&gt;&lt;a href=&#34;#Two-relative-path-operators&#34; class=&#34;headerlink&#34; title=&#34;Two relative path operators&#34;&gt;&lt;/a&gt;Two relative path operators&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;single dot &lt;code&gt;.&lt;/code&gt; &lt;ul&gt;
+&lt;li&gt;current directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;double dot &lt;code&gt;..&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;1 directory up the chain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cd-Navigating-directories&#34;&gt;&lt;a href=&#34;#cd-Navigating-directories&#34; class=&#34;headerlink&#34; title=&#34;cd: Navigating directories&#34;&gt;&lt;/a&gt;cd: Navigating directories&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;cd&lt;/strong&gt; is short for change directory, it changes your working directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cd&lt;/strong&gt; works with absolute and relative paths&lt;/li&gt;
+&lt;li&gt;if type &lt;strong&gt;cd&lt;/strong&gt; only, will go to the home directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ls-Listing-directories&#34;&gt;&lt;a href=&#34;#ls-Listing-directories&#34; class=&#34;headerlink&#34; title=&#34;ls: Listing directories&#34;&gt;&lt;/a&gt;ls: Listing directories&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;lists the files and directories within this directory&lt;/li&gt;
+&lt;li&gt;common flags -la&lt;/li&gt;
+&lt;li&gt;Bash shortcut, &lt;code&gt;ll = ls -la&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;File&amp;#x2F;Directory pattern matching&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;* Wild card&lt;/strong&gt; - 0 to any number of any character&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls *&lt;/code&gt; list all files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls *.c&lt;/code&gt; lists all files that end in .c&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;? Wild card&lt;/strong&gt; for a single character&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls file?.c&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;lists &lt;code&gt;file1.c filea.c file3.c......&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mkdir-Creating-directories&#34;&gt;&lt;a href=&#34;#mkdir-Creating-directories&#34; class=&#34;headerlink&#34; title=&#34;mkdir: Creating directories&#34;&gt;&lt;/a&gt;mkdir: Creating directories&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;make directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mv&#34;&gt;&lt;a href=&#34;#mv&#34; class=&#34;headerlink&#34; title=&#34;mv&#34;&gt;&lt;/a&gt;mv&lt;/h2&gt;&lt;h3 id=&#34;Moving-files-or-directories&#34;&gt;&lt;a href=&#34;#Moving-files-or-directories&#34; class=&#34;headerlink&#34; title=&#34;Moving files or directories&#34;&gt;&lt;/a&gt;Moving files or directories&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;mv: &lt;code&gt;mv &amp;lt;source&amp;gt; &amp;lt;target&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;uname@~/app/1 $ mv config.xml data/
+uname@~/app/1 $ mv beep data/beep
+uname@~/app/1 $ ll data
+.rw-r--r-- 115 uname 8012 Mar  2022 demo.dat
+.rwxr-xr-x   - uname   12 Feb  2021 config.xml
+drwxr-xr-x   - uname   14 Aug 06:02 beep
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;Renaming-files&#34;&gt;&lt;a href=&#34;#Renaming-files&#34; class=&#34;headerlink&#34; title=&#34;Renaming files&#34;&gt;&lt;/a&gt;Renaming files&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;mv: &lt;code&gt;mv &amp;lt;oldname&amp;gt; &amp;lt;newname&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cp-Copying-files-or-directories&#34;&gt;&lt;a href=&#34;#cp-Copying-files-or-directories&#34; class=&#34;headerlink&#34; title=&#34;cp: Copying files or directories&#34;&gt;&lt;/a&gt;cp: Copying files or directories&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;cp: &lt;code&gt;cp &amp;lt;file&amp;gt; &amp;lt;target&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rm-Removing-a-file-or-directory&#34;&gt;&lt;a href=&#34;#rm-Removing-a-file-or-directory&#34; class=&#34;headerlink&#34; title=&#34;rm: Removing a file or directory&#34;&gt;&lt;/a&gt;rm: Removing a file or directory&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;rm: &lt;code&gt;rm &amp;lt;file&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;-i&lt;ul&gt;
+&lt;li&gt;prompt the user for each deletion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;-v &lt;ul&gt;
+&lt;li&gt;with specific information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;*&lt;ul&gt;
+&lt;li&gt;Remove everything that is not a directory &lt;/li&gt;
+&lt;li&gt;does not start with a period&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;-r &lt;ul&gt;
+&lt;li&gt;Remove everything except items starting with period in current directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;echo-Print-the-value-provided&#34;&gt;&lt;a href=&#34;#echo-Print-the-value-provided&#34; class=&#34;headerlink&#34; title=&#34;echo: Print the value provided&#34;&gt;&lt;/a&gt;echo: Print the value provided&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;by defaule, includes a new line &lt;code&gt;\n&lt;/code&gt; at the end&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cat-Quickly-looking-at-file-contents&#34;&gt;&lt;a href=&#34;#cat-Quickly-looking-at-file-contents&#34; class=&#34;headerlink&#34; title=&#34;cat: Quickly looking at file contents&#34;&gt;&lt;/a&gt;cat: Quickly looking at file contents&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;prints the contents of a file to the terminal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grep-Search-and-return&#34;&gt;&lt;a href=&#34;#grep-Search-and-return&#34; class=&#34;headerlink&#34; title=&#34;grep: Search and return&#34;&gt;&lt;/a&gt;grep: Search and return&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;grep: means global regular expression&lt;/li&gt;
+&lt;li&gt;searches a pattern and returns the line that match&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;grep &amp;lt;option&amp;gt; &amp;lt;pattern&amp;gt; [file]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;Running-programs&#34;&gt;&lt;a href=&#34;#Running-programs&#34; class=&#34;headerlink&#34; title=&#34;Running programs&#34;&gt;&lt;/a&gt;Running programs&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Running a program from the command line requires&lt;ul&gt;
+&lt;li&gt;the &lt;strong&gt;path&lt;/strong&gt; to the program&lt;/li&gt;
+&lt;li&gt;Any arguments sent into the program&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;While it runs the program&lt;ul&gt;
+&lt;li&gt;Outputs to standard output (terminal in most cases)&lt;/li&gt;
+&lt;li&gt;Takes input via standard input (keyboard in most cases)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Returns a code on exit&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;uname@~/app/1 $ /bin/false&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;uname@~/app/1 $ /bin/echo &amp;quot;$?&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1&lt;/code&gt; (this is the value returned from &amp;#x2F;bin&amp;#x2F;false )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Must use .&amp;#x2F; to execute a program in out current directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;Redirection&#34;&gt;&lt;a href=&#34;#Redirection&#34; class=&#34;headerlink&#34; title=&#34;Redirection&#34;&gt;&lt;/a&gt;Redirection&lt;/h1&gt;&lt;h2 id=&#34;Redirecting-I-O&#34;&gt;&lt;a href=&#34;#Redirecting-I-O&#34; class=&#34;headerlink&#34; title=&#34;Redirecting I&amp;#x2F;O&#34;&gt;&lt;/a&gt;Redirecting I&amp;#x2F;O&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Default standard&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input:&lt;ul&gt;
+&lt;li&gt;standard input- keyboard input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Output&lt;ul&gt;
+&lt;li&gt;standard output with a file descriptor of 1&lt;/li&gt;
+&lt;li&gt;standard error with a file descriptor if 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;can redirect a file to be any of these&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;use &lt;code&gt;&amp;lt;&lt;/code&gt; to redirects input of the target to the provided device or file&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Input less than expected can cause errors&lt;/li&gt;
+&lt;li&gt;Redirects to standard input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;test.input&lt;/code&gt; contains “Erik”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;uname@~/app/1 $ ./myprogram &amp;lt; test.input
+Hello, Erik
+uname@~/app/1 $
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;use &lt;code&gt;&amp;gt;&lt;/code&gt; to redirect output from a program to a file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;uname@~/app/1 $ ll data &amp;gt; /tmp/output.dat
+uname@~/app/1 $ cat /tmp/output.dat
+.rw-r--r-- 115 uname 8012 Mar  2022 demo.dat
+.rwxr-xr-x   - uname   12 Fab  2021 config.xml
+drwxr-xr-x   - uname   14 Aug 06:02 beep
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;use &lt;code&gt;|&lt;/code&gt; to pipe one output to another input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;uname@~/app/1 $ printf &amp;quot;2\n3\n1\n&amp;quot; | sort -n
+1
+2
+3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;uname@~/app/1 $ printf &amp;quot;2\n3\n1\n&amp;quot; | sort -n | grep 3
+3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;Regular-Expressions&#34;&gt;&lt;a href=&#34;#Regular-Expressions&#34; class=&#34;headerlink&#34; title=&#34;Regular Expressions&#34;&gt;&lt;/a&gt;Regular Expressions&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Regular expressions (regex) are sequences of characters that define search patterns&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Used for string matching, validation, and text processing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Basic characters&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Literals: &lt;code&gt;meow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The Wildcard &lt;code&gt;.&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Square Brackets &lt;code&gt;\[a-zA-Z]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Quantifiers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Come after a literal character, wildcard character, or square brackets&lt;/li&gt;
+&lt;li&gt;describes how many times the proceeding item will occur&lt;ul&gt;
+&lt;li&gt;Asterisk &lt;code&gt;*&lt;/code&gt; matches 0 or more occurrences&lt;/li&gt;
+&lt;li&gt;Braces &lt;code&gt;&amp;#123;n,m&amp;#125;&lt;/code&gt; Matches between n and m occurrences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example Regex Patterns:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email Validation:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;[a-zA-Z0-9._%+!]*@[a-zA-Z0-9._%+!]*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;matches any email address&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Phone Number:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;([0-9]&amp;#123;3&amp;#125;)[0-9]&amp;#123;3&amp;#125;-[0-9]&amp;#123;4&amp;#125;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;(123)456-7890&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;Misc&#34;&gt;&lt;a href=&#34;#Misc&#34; class=&#34;headerlink&#34; title=&#34;Misc&#34;&gt;&lt;/a&gt;Misc&lt;/h1&gt;&lt;h3 id=&#34;gcc-Compile-C-source-code&#34;&gt;&lt;a href=&#34;#gcc-Compile-C-source-code&#34; class=&#34;headerlink&#34; title=&#34;gcc: Compile C source code&#34;&gt;&lt;/a&gt;gcc: Compile C source code&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;gcc&lt;/code&gt;:  compiles C source to a binary executable&lt;/li&gt;
+&lt;li&gt;-o is where to put the binary executable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;bash&#34;&gt;uname@~/app/1 $ gcc main.c -o main.bin
+uname@~/app/1 $ ls -la
+.rw-r--r-- 8120 uname  12 May 2024 main.bin
+.rwxr-xr-x 100  uname  12 May 2024 main.c
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+        <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
+        <category term="Linux" scheme="https://willcai2004.github.io/categories/computer-science/Linux/" />
+        <category term="Computer Science" scheme="https://willcai2004.github.io/tags/Computer-Science/" />
+        <category term="Linux" scheme="https://willcai2004.github.io/tags/Linux/" />
+        <updated>2024-10-17T20:52:50.000Z</updated>
+    </entry>
     <entry>
         <id>https://willcai2004.github.io/2024/10/14/game/game-review/Rainworld/</id>
         <title>Rainworld</title>
@@ -64,9 +320,9 @@ Life thrives within the ancient ruins as the tiny Slugcat roams through it. Cool
         <updated>2024-10-15T02:21:11.000Z</updated>
     </entry>
     <entry>
-        <id>https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/</id>
+        <id>https://willcai2004.github.io/2024/09/22/computer-science/test_page/</id>
         <title>test_测试</title>
-        <link rel="alternate" href="https://willcai2004.github.io/2024/09/22/computer-science/test/test_page/"/>
+        <link rel="alternate" href="https://willcai2004.github.io/2024/09/22/computer-science/test_page/"/>
         <content type="html">&lt;h1 id=&#34;这是一个测试文档&#34;&gt;&lt;a href=&#34;#这是一个测试文档&#34; class=&#34;headerlink&#34; title=&#34;这是一个测试文档&#34;&gt;&lt;/a&gt;这是一个测试文档&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;this is a test file&lt;/li&gt;
 &lt;li&gt;I will test new features here&lt;/li&gt;
