@@ -15,10 +15,11 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
-                "Assembly",
-                "SROP"
+                "SROP",
+                "Assembly"
             ]
         },
         {
@@ -30,10 +31,11 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
-                "Assembly",
                 "SROP",
+                "Assembly",
                 "ROP"
             ]
         },
@@ -46,6 +48,7 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
                 "Assembly"
@@ -60,6 +63,7 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
                 "Assembly",
@@ -75,10 +79,11 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
-                "Self-modifying",
-                "Assembly"
+                "Assembly",
+                "Self-modifying"
             ]
         },
         {
@@ -90,6 +95,7 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
                 "Assembly"
@@ -104,10 +110,11 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
-                "Self-modifying",
-                "Assembly"
+                "Assembly",
+                "Self-modifying"
             ]
         },
         {
@@ -119,10 +126,11 @@
             "tags": [
                 "Computer Science",
                 "PWN",
+                "Shellcoding Challenges",
                 "pwn",
                 "Shellcoding",
-                "Self-modifying",
-                "Assembly"
+                "Assembly",
+                "Self-modifying"
             ]
         },
         {

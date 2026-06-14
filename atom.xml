@@ -59,10 +59,11 @@
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-        <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
         <category term="SROP" scheme="https://willcai2004.github.io/tags/SROP/" />
+        <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
         <updated>2026-06-14T17:07:00.000Z</updated>
     </entry>
     <entry>
@@ -109,10 +110,11 @@ the first stage will accept only &lt;strong&gt; &lt;code&gt;0xc&lt;/code&gt;  = 
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-        <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
         <category term="SROP" scheme="https://willcai2004.github.io/tags/SROP/" />
+        <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
         <category term="ROP" scheme="https://willcai2004.github.io/tags/ROP/" />
         <updated>2026-06-14T17:06:00.000Z</updated>
     </entry>
@@ -161,6 +163,7 @@ syscall ; 0f 05 read(0, page, ... ) 2B Total 6B
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
         <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
@@ -198,6 +201,7 @@ syscall ; 0f 05 read(0, page, ... ) 2B Total 6B
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
         <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
@@ -248,10 +252,11 @@ write shellcode that reads  &lt;code&gt;/flag&lt;/code&gt; , but &lt;strong&gt;b
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-        <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
         <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
+        <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
         <updated>2026-06-14T17:03:00.000Z</updated>
     </entry>
     <entry>
@@ -294,6 +299,7 @@ write(1, rsp, bytes_read)
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
         <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
@@ -341,10 +347,11 @@ Same forbidden syscall bytes as &lt;a href=&#34;/my_blog/2026/06/14/computer-sci
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-        <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
         <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
+        <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
         <updated>2026-06-14T17:01:00.000Z</updated>
     </entry>
     <entry>
@@ -385,10 +392,11 @@ Write shellcode that reads  &lt;code&gt;/flag&lt;/code&gt; , however the &lt;str
 </content>
         <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
         <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+        <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
         <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
         <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-        <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
         <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
+        <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
         <updated>2026-06-14T17:00:00.000Z</updated>
     </entry>
     <entry>

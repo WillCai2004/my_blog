@@ -21,10 +21,11 @@
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Byte-Budget/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-            <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
             <category term="SROP" scheme="https://willcai2004.github.io/tags/SROP/" />
+            <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
             <pubDate>Sun, 14 Jun 2026 10:07:00 -0700</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;pwn.college • Shellcoding Challenges&lt;/p&gt;
@@ -74,10 +75,11 @@
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Pocket-Payload/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-            <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
             <category term="SROP" scheme="https://willcai2004.github.io/tags/SROP/" />
+            <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
             <category term="ROP" scheme="https://willcai2004.github.io/tags/ROP/" />
             <pubDate>Sun, 14 Jun 2026 10:06:00 -0700</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
@@ -125,6 +127,7 @@ the first stage will accept only &lt;strong&gt; &lt;code&gt;0xc&lt;/code&gt;  = 
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Micro-Menace/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
             <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
@@ -175,6 +178,7 @@ syscall ; 0f 05 read(0, page, ... ) 2B Total 6B
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Diverse-Delivery/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
             <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
@@ -213,10 +217,11 @@ syscall ; 0f 05 read(0, page, ... ) 2B Total 6B
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Clobbercode/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-            <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
             <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
+            <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
             <pubDate>Sun, 14 Jun 2026 10:03:00 -0700</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;pwn.college · shellcoding challenges&lt;br /&gt;
@@ -263,6 +268,7 @@ write shellcode that reads  &lt;code&gt;/flag&lt;/code&gt; , but &lt;strong&gt;b
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Ello-Ackers/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
             <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
@@ -308,10 +314,11 @@ write(1, rsp, bytes_read)
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Syscall-Shenanigans/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-            <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
             <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
+            <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
             <pubDate>Sun, 14 Jun 2026 10:01:00 -0700</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;pwn.college · shellcoding challenges&lt;br /&gt;
@@ -356,10 +363,11 @@ Same forbidden syscall bytes as &lt;a href=&#34;/my_blog/2026/06/14/computer-sci
             <link>https://willcai2004.github.io/2026/06/14/computer-science/pwn/Syscall-Smuggler/</link>
             <category term="Computer Science" scheme="https://willcai2004.github.io/categories/computer-science/" />
             <category term="PWN" scheme="https://willcai2004.github.io/categories/computer-science/pwn/" />
+            <category term="Shellcoding Challenges" scheme="https://willcai2004.github.io/categories/computer-science/pwn/shellcoding-challenges/" />
             <category term="pwn" scheme="https://willcai2004.github.io/tags/pwn/" />
             <category term="Shellcoding" scheme="https://willcai2004.github.io/tags/Shellcoding/" />
-            <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
             <category term="Assembly" scheme="https://willcai2004.github.io/tags/Assembly/" />
+            <category term="Self-modifying" scheme="https://willcai2004.github.io/tags/Self-modifying/" />
             <pubDate>Sun, 14 Jun 2026 10:00:00 -0700</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;pwn.college · Shellcoding Challenges&lt;br /&gt;
